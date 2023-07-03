@@ -70,12 +70,67 @@
       ],
       "settings": {
       }
+    },
+    "9b2542e0-fc63-4b53-a746-48b1f14b17fc": {
+      "type": "shop_by_vibe",
+      "blocks": {
+        "1c68c685-14a6-4fc9-9294-1dce31cbe5d9": {
+          "type": "shopbyvibe",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1a72bafab291e5642e00cfa73f5b29e2_1024x1024_1_720x_3a73ae67-dcdc-4bbf-a2f4-6b6ee730aced.jpg",
+            "col-heading": "Modern"
+          }
+        },
+        "bca5b18d-ce5e-4b09-83ca-f72d28418d4a": {
+          "type": "shopbyvibe",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/41a01fa7a9ca025c6c8462c330214fae_1024x1024_1_720x_b221d9a4-7aef-4e54-8d8b-0286cc0180a9.jpg",
+            "col-heading": "Classic"
+          }
+        },
+        "bcb2f4d5-65a9-4807-bdcf-cdc600b96eb5": {
+          "type": "shopbyvibe",
+          "settings": {
+            "col-heading": ""
+          }
+        },
+        "7cca2708-d0e0-4dc3-8e3a-018b5ec8ab6b": {
+          "type": "shopbyvibe",
+          "settings": {
+            "col-heading": ""
+          }
+        },
+        "4c562b61-f81a-42e9-81fd-c651367b1285": {
+          "type": "shopbyvibe",
+          "settings": {
+            "col-heading": ""
+          }
+        },
+        "818abea8-e6a4-439d-a3f1-750624f6a01b": {
+          "type": "shopbyvibe",
+          "settings": {
+            "col-heading": ""
+          }
+        }
+      },
+      "block_order": [
+        "1c68c685-14a6-4fc9-9294-1dce31cbe5d9",
+        "bca5b18d-ce5e-4b09-83ca-f72d28418d4a",
+        "bcb2f4d5-65a9-4807-bdcf-cdc600b96eb5",
+        "7cca2708-d0e0-4dc3-8e3a-018b5ec8ab6b",
+        "4c562b61-f81a-42e9-81fd-c651367b1285",
+        "818abea8-e6a4-439d-a3f1-750624f6a01b"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
     "590da8a9-6d72-45c2-87c3-d83ac00039de",
     "d37c19df-cbb1-4e29-9515-fa70dc7d6481",
     "c0bdc3f8-ec39-40d3-a39e-f6815050be98",
-    "55ffa2f0-196a-47b3-b19c-2ef5472113f4"
+    "55ffa2f0-196a-47b3-b19c-2ef5472113f4",
+    "9b2542e0-fc63-4b53-a746-48b1f14b17fc"
   ]
 }
