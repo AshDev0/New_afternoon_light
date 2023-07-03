@@ -205,11 +205,22 @@
             "second-para": "Unique",
             "third-para": "song"
           }
+        },
+        "7bdafd7a-4d24-4bd8-ad16-625af9d4a8ee": {
+          "type": "categories",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_35488256-4a4c-42f6-8196-534e470bb96f.png",
+            "cat-heading": "kitchen &  dining",
+            "first-para": "let’s invite",
+            "second-para": "pleasure",
+            "third-para": "to the table"
+          }
         }
       },
       "block_order": [
         "49c225c2-d2fe-4020-a5a4-02d20ce4b9a8",
-        "6b28f0a1-74e9-4518-836e-4a97a7775127"
+        "6b28f0a1-74e9-4518-836e-4a97a7775127",
+        "7bdafd7a-4d24-4bd8-ad16-625af9d4a8ee"
       ],
       "settings": {
         "heading": ""
