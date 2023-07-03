@@ -160,11 +160,22 @@
             "read-story": "read the story",
             "url": "#"
           }
+        },
+        "e6257d27-fac3-4d2e-b6b3-2b1a5da6898e": {
+          "type": "stories",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_720x_6c41be45-5015-4437-8c7a-365a628a9b75.jpg",
+            "story-title": "SAY GAY",
+            "sub-title": "Celebrate Pride",
+            "read-story": "read the story",
+            "url": "#"
+          }
         }
       },
       "block_order": [
         "1dbac1f5-21ad-45a9-92a6-decb97d4c0cf",
-        "3960ec92-8ee8-402e-8502-82642ae3869c"
+        "3960ec92-8ee8-402e-8502-82642ae3869c",
+        "e6257d27-fac3-4d2e-b6b3-2b1a5da6898e"
       ],
       "settings": {
         "heading": "",
