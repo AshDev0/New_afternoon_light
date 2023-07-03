@@ -21,10 +21,39 @@
       ],
       "settings": {
       }
+    },
+    "c0bdc3f8-ec39-40d3-a39e-f6815050be98": {
+      "type": "al_slider_new",
+      "settings": {
+        "heading": "New",
+        "collection": "new-collection"
+      }
+    },
+    "55ffa2f0-196a-47b3-b19c-2ef5472113f4": {
+      "type": "al_shop_now_section",
+      "blocks": {
+        "efaf98fc-7466-4c06-b7b9-35ad89a52d0a": {
+          "type": "shopnow",
+          "settings": {
+            "title": "TORTUGA FORMA",
+            "desc": "New colors in planters, coasters and  everyone’s favorite bookends are here.",
+            "btn-title": "Shop Now",
+            "url": "",
+            "image": "shopify:\/\/shop_images\/Bookend-Laguna2-Medium_1c1a92a8-294e-4250-8c50-ef6ab6537515_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "efaf98fc-7466-4c06-b7b9-35ad89a52d0a"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "590da8a9-6d72-45c2-87c3-d83ac00039de",
-    "d37c19df-cbb1-4e29-9515-fa70dc7d6481"
+    "d37c19df-cbb1-4e29-9515-fa70dc7d6481",
+    "c0bdc3f8-ec39-40d3-a39e-f6815050be98",
+    "55ffa2f0-196a-47b3-b19c-2ef5472113f4"
   ]
 }
