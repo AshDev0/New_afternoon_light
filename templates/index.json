@@ -182,6 +182,27 @@
         "btn-title": "view all stories",
         "btn-url": "#"
       }
+    },
+    "2a7245dd-1007-4af7-9d90-c0fa47de754a": {
+      "type": "categories",
+      "blocks": {
+        "49c225c2-d2fe-4020-a5a4-02d20ce4b9a8": {
+          "type": "categories",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_e7b1c80e-cfdd-4356-832c-a15d6dd15adf.png",
+            "cat-heading": "furniture",
+            "first-para": "the boundaries of our moving about,,",
+            "second-para": "the anchors",
+            "third-para": "of our rooms"
+          }
+        }
+      },
+      "block_order": [
+        "49c225c2-d2fe-4020-a5a4-02d20ce4b9a8"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
@@ -191,6 +212,7 @@
     "55ffa2f0-196a-47b3-b19c-2ef5472113f4",
     "9b2542e0-fc63-4b53-a746-48b1f14b17fc",
     "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe",
-    "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0"
+    "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0",
+    "2a7245dd-1007-4af7-9d90-c0fa47de754a"
   ]
 }
