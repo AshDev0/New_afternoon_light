@@ -150,10 +150,21 @@
             "read-story": "read the story",
             "url": "#"
           }
+        },
+        "3960ec92-8ee8-402e-8502-82642ae3869c": {
+          "type": "stories",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_720x_e24fa9d7-08d9-45f5-aaaa-421862159841.jpg",
+            "story-title": "HOW TO: CANDLE 101",
+            "sub-title": "Eternal Flame",
+            "read-story": "read the story",
+            "url": "#"
+          }
         }
       },
       "block_order": [
-        "1dbac1f5-21ad-45a9-92a6-decb97d4c0cf"
+        "1dbac1f5-21ad-45a9-92a6-decb97d4c0cf",
+        "3960ec92-8ee8-402e-8502-82642ae3869c"
       ],
       "settings": {
         "heading": "",
