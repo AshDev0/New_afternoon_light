@@ -128,6 +128,15 @@
       "settings": {
         "heading": ""
       }
+    },
+    "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe": {
+      "type": "items_we_love",
+      "settings": {
+        "heading": "items we love",
+        "collection": "items-we-love",
+        "add-to-bag": "add to bag",
+        "url": "#"
+      }
     }
   },
   "order": [
@@ -135,6 +144,7 @@
     "d37c19df-cbb1-4e29-9515-fa70dc7d6481",
     "c0bdc3f8-ec39-40d3-a39e-f6815050be98",
     "55ffa2f0-196a-47b3-b19c-2ef5472113f4",
-    "9b2542e0-fc63-4b53-a746-48b1f14b17fc"
+    "9b2542e0-fc63-4b53-a746-48b1f14b17fc",
+    "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe"
   ]
 }
