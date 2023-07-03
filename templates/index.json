@@ -195,10 +195,21 @@
             "second-para": "the anchors",
             "third-para": "of our rooms"
           }
+        },
+        "6b28f0a1-74e9-4518-836e-4a97a7775127": {
+          "type": "categories",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_ba085247-b120-4cd4-be03-8b4ee4adf1fb.png",
+            "cat-heading": "décor",
+            "first-para": "a symphony that plays our",
+            "second-para": "Unique",
+            "third-para": "song"
+          }
         }
       },
       "block_order": [
-        "49c225c2-d2fe-4020-a5a4-02d20ce4b9a8"
+        "49c225c2-d2fe-4020-a5a4-02d20ce4b9a8",
+        "6b28f0a1-74e9-4518-836e-4a97a7775127"
       ],
       "settings": {
         "heading": ""
