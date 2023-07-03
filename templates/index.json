@@ -225,13 +225,24 @@
             "second-para": "truest",
             "third-para": "selves"
           }
+        },
+        "7419df40-2e8e-41ab-87e3-9d510f736d0d": {
+          "type": "categories",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_b304f42b-6000-491c-87e7-945c2ba48b96.png",
+            "cat-heading": "lighting",
+            "first-para": "Dimmed low",
+            "second-para": "or all ablaze,",
+            "third-para": "turn it on."
+          }
         }
       },
       "block_order": [
         "49c225c2-d2fe-4020-a5a4-02d20ce4b9a8",
         "6b28f0a1-74e9-4518-836e-4a97a7775127",
         "7bdafd7a-4d24-4bd8-ad16-625af9d4a8ee",
-        "9ef72fcc-764b-4f77-9a27-611c177259b2"
+        "9ef72fcc-764b-4f77-9a27-611c177259b2",
+        "7419df40-2e8e-41ab-87e3-9d510f736d0d"
       ],
       "settings": {
         "heading": ""
