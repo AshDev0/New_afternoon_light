@@ -178,9 +178,9 @@
         "e6257d27-fac3-4d2e-b6b3-2b1a5da6898e"
       ],
       "settings": {
-        "heading": "",
-        "btn-title": "",
-        "btn-url": ""
+        "heading": "Stories",
+        "btn-title": "view all stories",
+        "btn-url": "#"
       }
     }
   },
