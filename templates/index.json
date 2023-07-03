@@ -91,25 +91,29 @@
         "bcb2f4d5-65a9-4807-bdcf-cdc600b96eb5": {
           "type": "shopbyvibe",
           "settings": {
-            "col-heading": ""
+            "image": "shopify:\/\/shop_images\/e23d7b9f973248f45ad613d203062b1d_720x_fd4df136-e5b0-4f6b-9dd7-5983aa549cb2.png",
+            "col-heading": "minimalist"
           }
         },
         "7cca2708-d0e0-4dc3-8e3a-018b5ec8ab6b": {
           "type": "shopbyvibe",
           "settings": {
-            "col-heading": ""
+            "image": "shopify:\/\/shop_images\/9093VA-3909Large_1024x1024_1_720x_303055ea-afb8-4a71-a719-640785b7baf4.jpg",
+            "col-heading": "cool"
           }
         },
         "4c562b61-f81a-42e9-81fd-c651367b1285": {
           "type": "shopbyvibe",
           "settings": {
-            "col-heading": ""
+            "image": "shopify:\/\/shop_images\/9084dc58c15578b51f51815c2d113232_1024x1024_1_1_720x_1a91c105-e68b-470f-ae33-a12ddecb8586.jpg",
+            "col-heading": "handmade"
           }
         },
         "818abea8-e6a4-439d-a3f1-750624f6a01b": {
           "type": "shopbyvibe",
           "settings": {
-            "col-heading": ""
+            "image": "shopify:\/\/shop_images\/cb80432769889ae6f6970112b793b3e6_1024x1024_1_720x_b551ac46-ca6d-4c08-987d-44475d285e10.jpg",
+            "col-heading": "essential"
           }
         }
       },
