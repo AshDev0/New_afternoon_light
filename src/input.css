@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Compacta';
+    src: url('https://cdn.shopify.com/s/files/1/0573/2201/2880/t/38/assets/CompactaBT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Kepler';
+    src: url('https://afternoonlight.com/cdn/shop/t/97/assets/KeplerStd-MediumScnSubh.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap; 
+}
+@font-face {
+    font-family: 'Tungsten';
+    src: url('https://afternoonlight.com/cdn/shop/t/97/assets/Tungsten-Light.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body{
+    background-color: #f4f0ec;
+}
+
+.new_slider .slick-prev{
+    background-image: url(/cdn/shop/t/56/assets/arrow-left.png?v=1664261587)!important;
+    background-size: 100%!important;
+    background-repeat: no-repeat!important;
+    height: 35px;
+    width: 18px;
+    position: absolute;
+    left: 0px!important;
+    right: unset;
+    z-index: 99;
+    top: 8vw;
+}
+
+.best-sellers .main-grid .slick-next {
+    background-image: url(/cdn/shop/t/56/assets/arrow-right.png?v=1664261596)!important;
+    background-size: 100%!important;
+    background-repeat: no-repeat!important;
+    height: 35px;
+    width: 18px;
+    position: absolute;
+    right: 0px!important;
+    top: 8vw;
+    transform: translateY(-50%);
+    left: unset;
+}

@@ -1,0 +1,81 @@
+<section id="items-we-love" class="bg-[#f4f0ec] m-0">
+  <div class="w-full pt-[25px] pb-0">
+    <div class="content w-full px-[90px]">
+      {% if section.settings.heading != blank %}
+        <h1 class="text-[45px] leading-[62.1px] uppercase font-compacta text-right font-normal m-0 mb-[35px]">
+          {{ section.settings.heading }}
+        </h1>
+      {% endif %}
+      {% assign collection_main = collections[section.settings.collection] %}
+      <div class="products flex justify-between flex-wrap">
+        {% for product in collection_main.products %}
+          <div class="product-items w-[25%] px-[17.5px] mb-[50px]">
+            <div class="group w-full h-fit ">
+              <div class="product-image relative w-full overflow-hidden">
+                <img class="w-full object-cover" src="{{ product | img_url:"master" }}" alt="">
+                <a class="absolute top-[50%] left-[50%] bottom-[20px] -translate-x-1/2 -translate-y-1/2 w-[134px] h-[52px] bg-[#242d2d] text-white font-tungsten font-medium text-[18px] leading-[24px] uppercase flex items-center justify-center opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300" href="{{section.settings.url}}">{{ section.settings['add-to-bag'] }}</a>
+                <div class="add-to-bag absolute top-0 left-0 right-0 bottom-0 h-full w-full bg-[#ff45d6] flex items-center justify-center opacity-0 group-hover:opacity-20 transition-all duration-300 ">
+                </div>
+
+              </div>
+            
+            <div class="product-content">
+              <ul class="vendor-info flex justify-between items-center mt-[30px]">
+                <li>
+                  <a class="text-black text-[15px] leading-[18px] uppercase font-kepler font-light" href="#">
+                    {{- product.vendor -}}
+                  </a>
+                </li>
+                <li>
+                  <a class="text-black text-[15px] leading-[18px] uppercase font-kepler font-light" href="#">
+                    {{- product.price | money_with_currency -}}
+                  </a>
+                </li>
+              </ul>
+              <p class="product-title text-black text-[15px] leading-[18px] mt-[5px] font-kepler font-medium capitalize">
+                {{ product.title }}
+              </p>
+            </div>
+        </div>
+          </div>
+        {% endfor %}
+      </div>
+      <a class="view-all h-[52px] bg-[#242d2d] text-white font-tungsten font-light text-[32px] leading-[50px] uppercase mt-[50px] mx-auto mb-0 w-full max-w-[196px] flex justify-center items-center" href="#">Shop all</a>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "items we love",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Title"
+    },
+    {
+      "id": "collection",
+      "type": "collection",
+      "label": "Collections"
+    },
+    {
+      "type": "text",
+      "id": "add-to-bag",
+      "label": "Button Title"
+    },
+    {
+      "type": "url",
+      "id": "url",
+      "label": "Product Url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "items we love",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

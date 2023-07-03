@@ -1,0 +1,28 @@
+<section id="al_banner">
+    <div class="al_banner_section">
+        {% if section.settings.banner_img != blank %}
+        <img src="{{section.settings.banner_img | img_url:'master'}}" alt="" />
+        {% endif %}
+    </div>
+</section>
+{% schema %}
+  {
+    "name": "AL Banner Section",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+        "type": "image_picker",
+        "id": "banner_img",
+        "label": "Banner Image"
+    }      
+    ],
+    "presets": [
+      {
+        "name": "AL Banner Section",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,68 @@
+<section id="shop-now-section">
+    <div class="shop_now_container w-full px-[90px] py-[90px] bg-[#e2e4e2] flex justify-between">
+        {% for block in section.blocks  %}
+        <div class="shop_now flex justify-between w-[32%] {% if forloop.index == 2 %}flex-col-reverse {% else %}flex-col{% endif %} ">
+            <div class="shop_now_content">
+                <h1 class="text-[45px] leading-[62.13px] text-center font-compacta font-normal uppercase mb-[64px]">{{ block.settings.title }}</h1>
+                <p class="text-[22px] leading-[26.4px] text-center font-kepler font-light mb-[64px]">{{ block.settings.desc }}</p>
+                <a class="w-[192px] h-[64px] mx-auto text-[32px] leading-[50px] font-tungsten font-[326] border border-black uppercase flex justify-center items-center mb-[64px]" href="{{ block.settings.url }}">{{ block.settings.btn-title }}</a>
+            </div>
+            <div class="shop_now_image">
+                <img class="w-full block" src="{{ block.settings.image | img_url:'master' }}" alt="" loading="lazy"/>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Shop Now Section",
+    "tag": "section",
+    "class": "section",
+    "settings": [      
+    ],
+    "blocks": [
+        {
+            "name": "Shop Now",
+            "type": "shopnow",
+            "settings":[
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Main Title"
+                },
+                {
+                    "type": "text",
+                    "id": "desc",
+                    "label": "Description"
+                },
+                {
+                    "type": "text",
+                    "id": "btn-title",
+                    "label": "Button Text"
+                },
+                {
+                    "type": "url",
+                    "id": "url",
+                    "label": "Button Url"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                }
+            ]
+        
+        }
+    ],
+    "presets": [
+      {
+        "name": "Shop Now Section",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

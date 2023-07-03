@@ -1,0 +1,56 @@
+<section id="new_slider_section" class="bg-[#f4f0ec] m-0">
+    <div class="new_slider_section w-full pt-[90px] px-[30px]">
+      {% if section.settings.heading != blank %}
+        <h1 class="text-right text-[45px] leading-[55px] uppercase tracking-normal m-0 font-compacta font-normal mb-[35px] pr-[50px]">{{ section.settings.heading }}</h1>
+      {% endif%}
+        {% assign collection_main = collections[section.settings.collection] %}
+        <div class="slider-container">
+            <div class="new_slider w-full flex justify-between flex-wrap px-[30px] m-0 pb-[60px]">
+                {% for product in collection_main.products %}
+                <div class="new_slider_item block px-[15px]">
+                  <div class="group w-full h-fit ">
+                    <div class="product_img relative w-full overflow-hidden">
+                        <img class="w-full block" src="{{ product | img_url:"master" }}">
+                        <div class="add-to-bag absolute h-full w-full bg-[#ff45d6] flex items-center justify-center opacity-0 group-hover:opacity-20 transition-all duration-300 ">
+                      </div>
+                    </div>
+                    <div class="product_content mt-[20px]">
+                        <ul class="vendor_info flex justify-between items-center">
+                            <li><a class="text-black text-[15px] leading-normal uppercase font-kepler font-light" href="#">{{ product.vendor }}</a></li>
+                            <li><a class="text-black text-[15px] leading-normal uppercase font-kepler font-light" href="#">{{ product.price | money_with_currency }}</a></li>
+                        </ul>
+                        <p class="text-black text-[15px] leading-normal uppercase font-kepler font-light ">{{product.title}}</p>
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+  {
+    "name": "AL New Slider Section",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Slider Title"
+      },
+      {
+        "id": "collection",
+        "type": "collection",
+        "label": "Collections"
+      }
+    ],
+    "presets": [
+      {
+        "name": "AL New Slider Section",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}
