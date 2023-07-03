@@ -41,10 +41,32 @@
             "url": "",
             "image": "shopify:\/\/shop_images\/Bookend-Laguna2-Medium_1c1a92a8-294e-4250-8c50-ef6ab6537515_1.png"
           }
+        },
+        "0958d470-4e9d-4a86-a7a6-27c100b44a90": {
+          "type": "shopnow",
+          "settings": {
+            "title": "Areaware",
+            "desc": "Explore the Spring ’23 releases",
+            "btn-title": "Shop Now",
+            "url": "",
+            "image": "shopify:\/\/shop_images\/ServingFriendsBoard-Silo-02-SLSFBL_b4fc0019-9860-429c-b5ad-43f0db78d20c_1.png"
+          }
+        },
+        "97c4c32d-3a86-43c7-a1fd-eb4cbb6363f8": {
+          "type": "shopnow",
+          "settings": {
+            "title": "LEMNOS",
+            "desc": "The most beautiful shoe horn in the world?",
+            "btn-title": "shop now",
+            "url": "",
+            "image": "shopify:\/\/shop_images\/shinwhite_1.png"
+          }
         }
       },
       "block_order": [
-        "efaf98fc-7466-4c06-b7b9-35ad89a52d0a"
+        "efaf98fc-7466-4c06-b7b9-35ad89a52d0a",
+        "0958d470-4e9d-4a86-a7a6-27c100b44a90",
+        "97c4c32d-3a86-43c7-a1fd-eb4cbb6363f8"
       ],
       "settings": {
       }
