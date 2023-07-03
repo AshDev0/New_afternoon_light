@@ -137,6 +137,29 @@
         "add-to-bag": "add to bag",
         "url": "#"
       }
+    },
+    "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0": {
+      "type": "al_stories",
+      "blocks": {
+        "1dbac1f5-21ad-45a9-92a6-decb97d4c0cf": {
+          "type": "stories",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_1296x_710bbcb5-82a3-4a40-b4da-721f7f7a359c.jpg",
+            "story-title": "MEDIUM THINGS",
+            "sub-title": "Never Mid",
+            "read-story": "read the story",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1dbac1f5-21ad-45a9-92a6-decb97d4c0cf"
+      ],
+      "settings": {
+        "heading": "",
+        "btn-title": "",
+        "btn-url": ""
+      }
     }
   },
   "order": [
@@ -145,6 +168,7 @@
     "c0bdc3f8-ec39-40d3-a39e-f6815050be98",
     "55ffa2f0-196a-47b3-b19c-2ef5472113f4",
     "9b2542e0-fc63-4b53-a746-48b1f14b17fc",
-    "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe"
+    "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe",
+    "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0"
   ]
 }
