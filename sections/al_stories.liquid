@@ -1,17 +1,17 @@
 <section id="stories" class="bg-[#f4f0ec] m-0">
     <div class="w-full">
-        <div class="content w-full px-[80px]">
+        <div class="content w-full px-0 md:px-[80px]">
             {% if section.settings.heading != blank %}
-            <h2 class="pt-[80px] pb-[35px] text-right text-[45px] leading-[62.1px] uppercase font-compacta font-normal">{{section.settings.heading}}</h2>
+            <h2 class="pt-[30px] pb-[15px] pr-[10px] text-right text-[30px] leading-[37px] uppercase font-compacta font-normal md:text-[45px] md:leading-[62.1px] md:pt-[80px] md:pb-[35px]">{{section.settings.heading}}</h2>
             {% endif %} 
             
               <div class="flex justify-between items-start flex-wrap">
                 {% for block in section.blocks %}
-            <div class="story {% if forloop.index > 1 %}w-[48%] {% else %}w-full{% endif %}">
+            <div class="story sm:w-full {% if forloop.index > 1 %}md:w-[48%] {% else %}md:w-full{% endif %}">
                 <div class="story-image w-full">
                     <img class="w-full" src="{{block.settings.image | img_url: 'master' }}" alt="" />
                 </div>
-                <div class="story-content my-[44px] ">
+                <div class="story-content my-[44px] pl-[22px] sm:pl-0">
                     <h3 class="text-[32px] leading-[38px] uppercase font-compacta font-normal ">{{block.settings.story-title}}</h3>
                     <p class="text-[22px] leading-[26px] capitalize font-kepler font-semibold mt-[20px] ">{{block.settings.sub-title}}</p>
                     <a href="{{block.settings.url}}" class="relative block text-[24px] leading-[29px] uppercase font-tungsten font-semibold mt-[20px] after:content-[''] after:absolute after:top-[25%] after:bg-[url('https://afternoonlight.com/cdn/shop/t/56/assets/arrow-bo-right.png?v=1664285703')] after:w-[50px] after:h-[10px] after:left-[135px] after:bg-no-repeat after:translate-y-[50%] after:bg-contain">{{block.settings.read-story}}</a>
@@ -19,7 +19,7 @@
             </div>
           {% endfor %}
           </div>
-            <a class="h-[75px] bg-[#242d2d] text-white font-tungsten font-light text-[32px] leading-[50px] uppercase mt-[80px] mx-auto mb-0 w-full max-w-[196px] flex justify-center items-center" href="{{section.settings.btn-url}}" class="view-all-stories">{{section.settings.btn-title}}</a>
+            <a class="h-[50px] bg-[#242d2d] text-white font-tungsten font-light text-[25px] leading-[30px] uppercase mt-[30px] mx-auto mb-0 w-full max-w-[150px] flex justify-center items-center md:h-[93px] md:text-[32px] md:leading-[50px] md:mt-[80px] md:max-w-[196px]" href="{{section.settings.btn-url}}" class="view-all-stories">{{section.settings.btn-title}}</a>
         </div>
     </div>
 </section>
