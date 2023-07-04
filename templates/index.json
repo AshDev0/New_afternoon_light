@@ -89,11 +89,20 @@
             "heading": "areaware",
             "desc": "Explore the Spring ’23 releases"
           }
+        },
+        "2b1602de-0362-4143-a13d-0f0cc6dc0304": {
+          "type": "shopnow",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SO_5430_1.png",
+            "heading": "LEMNOS",
+            "desc": "The most beautiful shoe horn in the world?"
+          }
         }
       },
       "block_order": [
         "194e472c-1636-4145-a706-0131a7ddb4c0",
-        "2e8a0d5e-e533-4905-9fb6-b445e170eafe"
+        "2e8a0d5e-e533-4905-9fb6-b445e170eafe",
+        "2b1602de-0362-4143-a13d-0f0cc6dc0304"
       ],
       "settings": {
       }
