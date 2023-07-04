@@ -1,19 +1,19 @@
 <section id="categories">
-<div class="categories">
-<h2>{{section.settings.heading}}</h2>
-<ul class="cat-list">
+<div class="categories w-full mt-[80px] px-[60px]">
+<h2 class="text-[45px] leading-[55px] uppercase font-compacta font-normal text-right pr-[20px] pb-[40px] m-0">{{section.settings.heading}}</h2>
+<ul class="cat-list flex flex-wrap">
     {% for block in section.blocks %}
-<li>
-    <a href="#">
-        <div class="cat-image">
-            <img src="{{block.settings.image | img_url: 'master'}}" alt=" " loading="lazy" />
+<li class="w-1/2 mb-[46px]">
+    <a class="flex justify-between h-full bg-[#303C3C]" href="#">
+        <div class="cat-image w-1/2">
+            <img class="w-full h-full block" src="{{block.settings.image | img_url: 'master'}}" alt=" " loading="lazy" />
         </div>
-        <div class="cat-content">
-            <h3>{{block.settings.cat-heading}}</h3>
-            <div class="cat-lines">
-                <p>{{block.settings.first-para}}</p>
-                <p>{{block.settings.second-para}}</p>
-                <p>{{block.settings.third-para}}</p>
+        <div class="cat-content w-1/2 relative">
+            <h3 class="absolute text-[34px] leading-normal uppercase text-center text-[#F8E5CF] font-compacta font-normal bottom-[30px] left-[50%] -translate-x-[50%] ">{{block.settings.cat-heading}}</h3>
+            <div class="cat-lines mt-[40px]">
+                <p class="text-[30px] leading-[34px] text-[#F8E5CF] font-kepler font-light lowercase m-0 italic max-w-[63%] h-[45px] m-auto">{{block.settings.first-para}}</p>
+                <p class="absolute top-[165px] right-[85px] text-[30px] leading-[34px] text-[#F8E5CF] font-kepler font-light lowercase m-0 italic max-w-[63%] h-[45px] m-auto">{{block.settings.second-para}}</p>
+                <p class="absolute top-[210px] right-[105px] text-[30px] leading-[34px] text-[#F8E5CF] font-kepler font-light lowercase m-0 italic max-w-[63%] h-[45px] m-auto">{{block.settings.third-para}}</p>
             </div>
         </div>
         </a>

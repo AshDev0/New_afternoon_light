@@ -1,13 +1,13 @@
 <section id="new_slider_section" class="bg-[#f4f0ec] m-0">
-    <div class="new_slider_section w-full pt-[90px] px-[30px]">
+    <div class="new_slider_section w-full pt-[85px] px-[0px] md:pt-[90px] md:px-[30px]">
       {% if section.settings.heading != blank %}
-        <h1 class="text-right text-[45px] leading-[55px] uppercase tracking-normal m-0 font-compacta font-normal mb-[35px] pr-[50px]">{{ section.settings.heading }}</h1>
+        <h1 class="text-right text-[30px] leading-[37px] uppercase tracking-normal m-0 font-compacta font-normal mb-[35px] pr-[20px] md:text-[45px] md:leading-[55px] md:pr-[50px]">{{ section.settings.heading }}</h1>
       {% endif%}
         {% assign collection_main = collections[section.settings.collection] %}
         <div class="slider-container">
-            <div class="new_slider w-full flex justify-between flex-wrap px-[30px] m-0 pb-[60px]">
+            <div class="new_slider w-full flex justify-between flex-wrap px-[20px] m-0 pb-[60px] md:px-[30px]">
                 {% for product in collection_main.products %}
-                <div class="new_slider_item block px-[15px]">
+                <div class="new_slider_item block px-[12.5px] md:px-[15px]">
                   <div class="group w-full h-fit ">
                     <div class="product_img relative w-full overflow-hidden">
                         <img class="w-full block" src="{{ product | img_url:"master" }}">
@@ -16,10 +16,10 @@
                     </div>
                     <div class="product_content mt-[20px]">
                         <ul class="vendor_info flex justify-between items-center">
-                            <li><a class="text-black text-[15px] leading-normal uppercase font-kepler font-light" href="#">{{ product.vendor }}</a></li>
-                            <li><a class="text-black text-[15px] leading-normal uppercase font-kepler font-light" href="#">{{ product.price | money_with_currency }}</a></li>
+                            <li><a class="text-black text-[16px] leading-normal uppercase font-kepler font-light md:text-[20px]" href="#">{{ product.vendor }}</a></li>
+                            <li><a class="text-black text-[16px] leading-normal uppercase font-kepler font-light md:text-[20px]" href="#">{{ product.price | money_with_currency }}</a></li>
                         </ul>
-                        <p class="text-black text-[15px] leading-normal uppercase font-kepler font-light ">{{product.title}}</p>
+                        <p class="text-black text-[20px] leading-normal uppercase font-kepler font-light ">{{product.title}}</p>
                     </div>
                   </div>
                 </div>

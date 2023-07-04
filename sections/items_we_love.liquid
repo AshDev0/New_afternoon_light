@@ -1,15 +1,15 @@
 <section id="items-we-love" class="bg-[#f4f0ec] m-0">
   <div class="w-full pt-[25px] pb-0">
-    <div class="content w-full px-[90px]">
+    <div class="content w-full px-[10px] md:px-[90px]">
       {% if section.settings.heading != blank %}
-        <h1 class="text-[45px] leading-[62.1px] uppercase font-compacta text-right font-normal m-0 mb-[35px]">
+        <h1 class="text-[30px] leading-[37px] uppercase font-compacta text-right font-normal m-0 mb-[35px] md:text-[45px] md:leading-[62.1px] ">
           {{ section.settings.heading }}
         </h1>
       {% endif %}
       {% assign collection_main = collections[section.settings.collection] %}
       <div class="products flex justify-between flex-wrap">
         {% for product in collection_main.products %}
-          <div class="product-items w-[25%] px-[17.5px] mb-[50px]">
+          <div class="product-items w-[50%] px-[8px] mb-[50px] md:w-[25%] md:px-[17.5px] ">
             <div class="group w-full h-fit ">
               <div class="product-image relative w-full overflow-hidden">
                 <img class="w-full object-cover" src="{{ product | img_url:"master" }}" alt="">
@@ -22,17 +22,17 @@
             <div class="product-content">
               <ul class="vendor-info flex justify-between items-center mt-[30px]">
                 <li>
-                  <a class="text-black text-[15px] leading-[18px] uppercase font-kepler font-light" href="#">
+                  <a class="text-black text-[16px] leading-[19px] uppercase font-kepler font-light lg:text-[26px] lg:leading-[29px] xl:text-[32px] xl:leading-[38px]" href="#">
                     {{- product.vendor -}}
                   </a>
                 </li>
                 <li>
-                  <a class="text-black text-[15px] leading-[18px] uppercase font-kepler font-light" href="#">
+                  <a class="text-black text-[16px] leading-[19px] uppercase font-kepler font-light lg:text-[26px] lg:leading-[29px] xl:text-[32px] xl:leading-[38px]" href="#">
                     {{- product.price | money_with_currency -}}
                   </a>
                 </li>
               </ul>
-              <p class="product-title text-black text-[15px] leading-[18px] mt-[5px] font-kepler font-medium capitalize">
+              <p class="product-title text-black text-[17px] leading-[19px] mt-[5px] font-kepler font-medium capitalize md:text-[22px] md:leading-[26px]">
                 {{ product.title }}
               </p>
             </div>
@@ -40,7 +40,7 @@
           </div>
         {% endfor %}
       </div>
-      <a class="view-all h-[52px] bg-[#242d2d] text-white font-tungsten font-light text-[32px] leading-[50px] uppercase mt-[50px] mx-auto mb-0 w-full max-w-[196px] flex justify-center items-center" href="#">Shop all</a>
+      <a class="view-all h-[50px] bg-[#242d2d] text-white font-tungsten font-light text-[25px] leading-[30px] uppercase mt-[30px] mx-auto mb-0 w-full max-w-[150px] flex justify-center items-center md:text-[32px] md:leading-[50px] md:h-[93px] md:max-w-[196px]" href="#">Shop all</a>
     </div>
   </div>
 </section>
