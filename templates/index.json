@@ -71,6 +71,33 @@
       "settings": {
       }
     },
+    "a5694b61-be91-4634-a099-5cdc4135f638": {
+      "type": "al_shop_now_for_mobile",
+      "blocks": {
+        "194e472c-1636-4145-a706-0131a7ddb4c0": {
+          "type": "shopnow",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/202209-842_03_1.png",
+            "heading": "kartell",
+            "desc": "New colors in planters, coasters and  everyone’s favorite bookends are here."
+          }
+        },
+        "2e8a0d5e-e533-4905-9fb6-b445e170eafe": {
+          "type": "shopnow",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/anglepoise-oiginal-1227-giant-citrus-yellowLarge_1.png",
+            "heading": "areaware",
+            "desc": "Explore the Spring ’23 releases"
+          }
+        }
+      },
+      "block_order": [
+        "194e472c-1636-4145-a706-0131a7ddb4c0",
+        "2e8a0d5e-e533-4905-9fb6-b445e170eafe"
+      ],
+      "settings": {
+      }
+    },
     "9b2542e0-fc63-4b53-a746-48b1f14b17fc": {
       "type": "shop_by_vibe",
       "blocks": {
@@ -136,51 +163,6 @@
         "collection": "items-we-love",
         "add-to-bag": "add to bag",
         "url": "#"
-      }
-    },
-    "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0": {
-      "type": "al_stories",
-      "blocks": {
-        "1dbac1f5-21ad-45a9-92a6-decb97d4c0cf": {
-          "type": "stories",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/unnamed_1296x_710bbcb5-82a3-4a40-b4da-721f7f7a359c.jpg",
-            "story-title": "MEDIUM THINGS",
-            "sub-title": "Never Mid",
-            "read-story": "read the story",
-            "url": "#"
-          }
-        },
-        "3960ec92-8ee8-402e-8502-82642ae3869c": {
-          "type": "stories",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/unnamed_720x_e24fa9d7-08d9-45f5-aaaa-421862159841.jpg",
-            "story-title": "HOW TO: CANDLE 101",
-            "sub-title": "Eternal Flame",
-            "read-story": "read the story",
-            "url": "#"
-          }
-        },
-        "e6257d27-fac3-4d2e-b6b3-2b1a5da6898e": {
-          "type": "stories",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/unnamed_720x_6c41be45-5015-4437-8c7a-365a628a9b75.jpg",
-            "story-title": "SAY GAY",
-            "sub-title": "Celebrate Pride",
-            "read-story": "read the story",
-            "url": "#"
-          }
-        }
-      },
-      "block_order": [
-        "1dbac1f5-21ad-45a9-92a6-decb97d4c0cf",
-        "3960ec92-8ee8-402e-8502-82642ae3869c",
-        "e6257d27-fac3-4d2e-b6b3-2b1a5da6898e"
-      ],
-      "settings": {
-        "heading": "Stories",
-        "btn-title": "view all stories",
-        "btn-url": "#"
       }
     },
     "2a7245dd-1007-4af7-9d90-c0fa47de754a": {
@@ -258,6 +240,51 @@
       "settings": {
         "heading": ""
       }
+    },
+    "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0": {
+      "type": "al_stories",
+      "blocks": {
+        "1dbac1f5-21ad-45a9-92a6-decb97d4c0cf": {
+          "type": "stories",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_1296x_710bbcb5-82a3-4a40-b4da-721f7f7a359c.jpg",
+            "story-title": "MEDIUM THINGS",
+            "sub-title": "Never Mid",
+            "read-story": "read the story",
+            "url": "#"
+          }
+        },
+        "3960ec92-8ee8-402e-8502-82642ae3869c": {
+          "type": "stories",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_720x_e24fa9d7-08d9-45f5-aaaa-421862159841.jpg",
+            "story-title": "HOW TO: CANDLE 101",
+            "sub-title": "Eternal Flame",
+            "read-story": "read the story",
+            "url": "#"
+          }
+        },
+        "e6257d27-fac3-4d2e-b6b3-2b1a5da6898e": {
+          "type": "stories",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_720x_6c41be45-5015-4437-8c7a-365a628a9b75.jpg",
+            "story-title": "SAY GAY",
+            "sub-title": "Celebrate Pride",
+            "read-story": "read the story",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1dbac1f5-21ad-45a9-92a6-decb97d4c0cf",
+        "3960ec92-8ee8-402e-8502-82642ae3869c",
+        "e6257d27-fac3-4d2e-b6b3-2b1a5da6898e"
+      ],
+      "settings": {
+        "heading": "Stories",
+        "btn-title": "view all stories",
+        "btn-url": "#"
+      }
     }
   },
   "order": [
@@ -265,9 +292,10 @@
     "d37c19df-cbb1-4e29-9515-fa70dc7d6481",
     "c0bdc3f8-ec39-40d3-a39e-f6815050be98",
     "55ffa2f0-196a-47b3-b19c-2ef5472113f4",
+    "a5694b61-be91-4634-a099-5cdc4135f638",
     "9b2542e0-fc63-4b53-a746-48b1f14b17fc",
     "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe",
-    "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0",
-    "2a7245dd-1007-4af7-9d90-c0fa47de754a"
+    "2a7245dd-1007-4af7-9d90-c0fa47de754a",
+    "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0"
   ]
 }
