@@ -22,13 +22,6 @@
       "settings": {
       }
     },
-    "c0bdc3f8-ec39-40d3-a39e-f6815050be98": {
-      "type": "al_slider_new",
-      "settings": {
-        "heading": "New",
-        "collection": "new-collection"
-      }
-    },
     "610154c3-224e-4cc4-b55c-4c8fd7c2054a": {
       "type": "al_new_slider_keen",
       "settings": {
@@ -114,6 +107,15 @@
       "settings": {
       }
     },
+    "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe": {
+      "type": "items_we_love",
+      "settings": {
+        "heading": "items we love",
+        "collection": "items-we-love",
+        "add-to-bag": "add to bag",
+        "url": "#"
+      }
+    },
     "9b2542e0-fc63-4b53-a746-48b1f14b17fc": {
       "type": "shop_by_vibe",
       "blocks": {
@@ -172,13 +174,11 @@
         "heading": "Shop by Vibe"
       }
     },
-    "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe": {
-      "type": "items_we_love",
+    "c0bdc3f8-ec39-40d3-a39e-f6815050be98": {
+      "type": "al_slider_new",
       "settings": {
-        "heading": "items we love",
-        "collection": "items-we-love",
-        "add-to-bag": "add to bag",
-        "url": "#"
+        "heading": "BEST SELLERS",
+        "collection": "new-collection"
       }
     },
     "2a7245dd-1007-4af7-9d90-c0fa47de754a": {
@@ -306,12 +306,12 @@
   "order": [
     "590da8a9-6d72-45c2-87c3-d83ac00039de",
     "d37c19df-cbb1-4e29-9515-fa70dc7d6481",
-    "c0bdc3f8-ec39-40d3-a39e-f6815050be98",
     "610154c3-224e-4cc4-b55c-4c8fd7c2054a",
     "55ffa2f0-196a-47b3-b19c-2ef5472113f4",
     "a5694b61-be91-4634-a099-5cdc4135f638",
-    "9b2542e0-fc63-4b53-a746-48b1f14b17fc",
     "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe",
+    "9b2542e0-fc63-4b53-a746-48b1f14b17fc",
+    "c0bdc3f8-ec39-40d3-a39e-f6815050be98",
     "2a7245dd-1007-4af7-9d90-c0fa47de754a",
     "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0"
   ]
