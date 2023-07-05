@@ -1,10 +1,10 @@
-<section id="shop-now-for-mobile">
-<div class="w-full bg-[#e2e4e2]">
+<section id="shop-now-for-mobile" class="md:hidden">
+<div class="w-full bg-[#e2e4e2] p-[50px]">
     {% for block in section.blocks%}
-    <div class="items flex justify-between items-center flex-col">
-        <p>{{block.settings.desc}}</p>
-        <img src="{{block.settings.image | img_url: 'master'}}">
-        <h3>{{block.settings.heading}}</h3>
+    <div class="items flex justify-between items-center flex-col mb-[20px]">
+        <p class="text-[16px] leading-[19px] text-center font-kepler font-semibold">{{block.settings.desc}}</p>
+        <img class="w-full block my-[20px]" src="{{block.settings.image | img_url: 'master'}}">
+        <h3 class="text-[30px] leading-[37px] text-center font-compacta font-normal uppercase">{{block.settings.heading}}</h3>
     </div>
 {% endfor%}
 </div>

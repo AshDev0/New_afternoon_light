@@ -1,0 +1,59 @@
+<section id="homepage-new-slider" class="m-0 p-0 bg-[#f4f0ec]">
+<div class="w-full pt-[85px] px-[0px] md:pt-[90px] md:px-[50px]">
+    {% if section.settings.heading != blank %}
+        <h1 class="text-right text-[30px] leading-[37px] uppercase tracking-normal m-0 font-compacta font-normal mb-[35px] pr-[20px] md:text-[45px] md:leading-[55px] md:pr-[50px]">{{ section.settings.heading }}</h1>
+      {% endif %}
+      {% assign collection_main = collections[section.settings.collection] %}
+      
+      <div id="my-keen-slider" class="keen-slider">
+        {% for product in collection_main.products %}
+        <div class="keen-slider__slide">
+            <div class="group w-full h-fit ">
+                <div class="product_img relative w-full overflow-hidden">
+                    <img class="w-full block" src="{{ product | img_url:"master" }}">
+                    <div class="absolute top-0 left-0 right-0 bottom-0 h-full w-full bg-[#ff45d6] flex items-center justify-center opacity-0 group-hover:opacity-20 transition-all duration-300 ">
+                  </div>
+                </div>
+                <div class="product_content mt-[20px]">
+                    <ul class="vendor_info flex justify-between items-center">
+                        <li><a class="text-black text-[16px] leading-normal uppercase font-kepler font-light md:text-[20px]" href="#">{{ product.vendor }}</a></li>
+                        <li><a class="text-black text-[16px] leading-normal uppercase font-kepler font-light md:text-[20px]" href="#">{{ product.price | money_with_currency }}</a></li>
+                    </ul>
+                    <p class="text-black text-[20px] leading-normal uppercase font-kepler font-light ">{{product.title}}</p>
+                </div>
+              </div>      
+        </div>
+    {% endfor %}
+      </div>
+    
+</div>
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "Homepage New Slider",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Slider Title"
+          },
+          {
+            "id": "collection",
+            "type": "collection",
+            "label": "Collections"
+          }
+    ],
+    "presets": [
+      {
+        "name": "Homepage New Slider",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

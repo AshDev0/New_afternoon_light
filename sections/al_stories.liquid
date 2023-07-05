@@ -7,7 +7,7 @@
             
               <div class="flex justify-between items-start flex-wrap">
                 {% for block in section.blocks %}
-            <div class="story sm:w-full {% if forloop.index > 1 %}md:w-[48%] {% else %}md:w-full{% endif %}">
+            <div class="story {% if forloop.index > 1 %}sm:w-full md:w-[48%] {% else %}sm:w-full{% endif %}">
                 <div class="story-image w-full">
                     <img class="w-full" src="{{block.settings.image | img_url: 'master' }}" alt="" />
                 </div>
