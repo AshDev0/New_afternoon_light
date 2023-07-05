@@ -661,10 +661,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 .flex {
   display: flex;
 }
@@ -855,11 +851,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(48 60 60 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -873,9 +864,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 50px;
 }
 
-.px-\[0px\] {
-  padding-left: 0px;
-  padding-right: 0px;
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .px-\[90px\] {
@@ -886,6 +877,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-\[90px\] {
   padding-top: 90px;
   padding-bottom: 90px;
+}
+
+.px-\[0px\] {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .px-\[20px\] {
@@ -903,11 +899,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0px;
 }
 
-.px-\[10px\] {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 .px-\[8px\] {
   padding-left: 8px;
   padding-right: 8px;
@@ -916,11 +907,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-\[11px\] {
   padding-left: 11px;
   padding-right: 11px;
-}
-
-.px-\[15px\] {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .pt-\[85px\] {
@@ -972,6 +958,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .pr-0 {
+  padding-right: 0px;
+}
+
+.pr-\[0px\] {
   padding-right: 0px;
 }
 
@@ -1325,6 +1315,10 @@ body{
 }
 
 @media (min-width: 768px) {
+  .md\:visible {
+    visibility: visible;
+  }
+
   .md\:bottom-\[30px\] {
     bottom: 30px;
   }
@@ -1343,6 +1337,38 @@ body{
 
   .md\:right-\[105px\] {
     right: 105px;
+  }
+
+  .md\:top-\[150px\] {
+    top: 150px;
+  }
+
+  .md\:right-\[55px\] {
+    right: 55px;
+  }
+
+  .md\:bottom-\[15px\] {
+    bottom: 15px;
+  }
+
+  .md\:top-\[140px\] {
+    top: 140px;
+  }
+
+  .md\:top-\[160px\] {
+    top: 160px;
+  }
+
+  .md\:right-\[60px\] {
+    right: 60px;
+  }
+
+  .md\:top-\[175px\] {
+    top: 175px;
+  }
+
+  .md\:bottom-\[12px\] {
+    bottom: 12px;
   }
 
   .md\:mt-0 {
@@ -1405,6 +1431,10 @@ body{
     max-width: 63%;
   }
 
+  .md\:max-w-\[90\%\] {
+    max-width: 90%;
+  }
+
   .md\:flex-col {
     flex-direction: column;
   }
@@ -1428,9 +1458,9 @@ body{
     padding-right: 0px;
   }
 
-  .md\:px-\[50px\] {
-    padding-left: 50px;
-    padding-right: 50px;
+  .md\:px-\[60px\] {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   .md\:px-\[15px\] {
@@ -1441,16 +1471,6 @@ body{
   .md\:px-\[80px\] {
     padding-left: 80px;
     padding-right: 80px;
-  }
-
-  .md\:px-\[60px\] {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
-  .md\:px-\[90px\] {
-    padding-left: 90px;
-    padding-right: 90px;
   }
 
   .md\:px-\[17\.5px\] {
@@ -1489,6 +1509,14 @@ body{
 
   .md\:pr-\[38px\] {
     padding-right: 38px;
+  }
+
+  .md\:pr-\[0px\] {
+    padding-right: 0px;
+  }
+
+  .md\:pb-\[0px\] {
+    padding-bottom: 0px;
   }
 
   .md\:text-\[45px\] {
@@ -1530,6 +1558,10 @@ body{
   .md\:leading-\[26px\] {
     line-height: 26px;
   }
+
+  .md\:leading-normal {
+    line-height: 1.5;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1561,12 +1593,44 @@ body{
 }
 
 @media (min-width: 1280px) {
+  .xl\:top-\[150px\] {
+    top: 150px;
+  }
+
+  .xl\:right-\[50px\] {
+    right: 50px;
+  }
+
+  .xl\:top-\[165px\] {
+    top: 165px;
+  }
+
+  .xl\:right-\[85px\] {
+    right: 85px;
+  }
+
+  .xl\:bottom-\[30px\] {
+    bottom: 30px;
+  }
+
+  .xl\:top-\[200px\] {
+    top: 200px;
+  }
+
   .xl\:m-0 {
     margin: 0px;
   }
 
   .xl\:mt-\[20px\] {
     margin-top: 20px;
+  }
+
+  .xl\:mt-\[30px\] {
+    margin-top: 30px;
+  }
+
+  .xl\:max-w-\[63\%\] {
+    max-width: 63%;
   }
 
   .xl\:flex-col {
@@ -1605,11 +1669,29 @@ body{
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:px-\[90px\] {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .\32xl\:px-\[80px\] {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
   .\32xl\:text-\[50px\] {
     font-size: 50px;
   }
 
+  .\32xl\:text-\[32px\] {
+    font-size: 32px;
+  }
+
   .\32xl\:leading-\[62\.13px\] {
     line-height: 62.13px;
+  }
+
+  .\32xl\:leading-\[38px\] {
+    line-height: 38px;
   }
 }

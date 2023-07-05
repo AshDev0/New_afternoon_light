@@ -1,11 +1,11 @@
 <section id="homepage-new-slider" class="m-0 p-0 bg-[#f4f0ec]">
-<div class="w-full pt-[85px] px-[0px] md:pt-[90px] md:px-[50px]">
+<div class="w-full pt-[85px] px-[20px] md:pt-[90px] md:px-[60px] 2xl:px-[80px]">
     {% if section.settings.heading != blank %}
-        <h1 class="text-right text-[30px] leading-[37px] uppercase tracking-normal m-0 font-compacta font-normal mb-[35px] pr-[20px] md:text-[45px] md:leading-[55px] md:pr-[50px]">{{ section.settings.heading }}</h1>
+        <h1 class="text-right text-[30px] leading-[37px] uppercase tracking-normal m-0 font-compacta font-normal mb-[35px] md:text-[45px] md:leading-[55px] ">{{ section.settings.heading }}</h1>
       {% endif %}
       {% assign collection_main = collections[section.settings.collection] %}
       
-      <div id="my-keen-slider" class="keen-slider">
+      <div id="{{section.id}}" class="keen-slider">
         {% for product in collection_main.products %}
         <div class="keen-slider__slide">
             <div class="group w-full h-fit ">
@@ -28,7 +28,29 @@
     
 </div>
 </section>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    {% comment %} var slider = new KeenSlider("#{{section.id}}", {
+        slides: {
+          perView: 5,
+          spacing: 25,
+        },
+      });
+    }); {% endcomment %}
 
+    var slider = new KeenSlider("#{{section.id}}", {
+        breakpoints: {
+            "(min-width: 1000px)": {
+                slides: { perView: 4, spacing: 20 },
+              },
+              "(min-width: 1200px)": {
+                slides: { perView: 5, spacing: 25 },
+              },
+        },
+        slides: { perView: 2, spacing: 15 },
+      });
+    });
+</script>
 
 
 {% schema %}

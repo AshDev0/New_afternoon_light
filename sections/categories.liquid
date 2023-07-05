@@ -1,5 +1,5 @@
 <section id="categories" class="m-0 p-0">
-<div class="categories w-full pt-[80px] px-0 bg-[#f4f0ec] md:px-[60px]">
+<div class="categories w-full pt-[80px] px-0 bg-[#f4f0ec] md:px-[60px] 2xl:px-[90px]">
 <h2 class="text-[30px] leading-[37px] uppercase font-compacta font-normal text-right pr-[20px] pb-[40px] m-0 md:text-[45px] md:leading-[55px]">{{section.settings.heading}}</h2>
 <ul class="cat-list flex flex-wrap">
     {% for block in section.blocks %}
@@ -9,11 +9,11 @@
             <img class="w-full h-full block" src="{{block.settings.image | img_url: 'master'}}" alt=" " loading="lazy" />
         </div>
         <div class="cat-content w-1/2 relative">
-            <h3 class="w-full absolute text-[30px] leading-normal uppercase text-center text-[#F8E5CF] font-compacta font-normal bottom-[15px] left-[50%] -translate-x-[50%] md:text-[34px] md:bottom-[30px]">{{block.settings.cat-heading}}</h3>
-            <div class="cat-lines mt-[40px]">
-                <p class="text-[20px] leading-[34px] text-[#F8E5CF] font-kepler font-light lowercase m-0 italic max-w-[90%] h-[45px] m-auto md:text-[30px] md:max-w-[63%]">{{block.settings.first-para}}</p>
-                <p class="absolute top-[105px] right-[40px] text-[20px] leading-[34px] text-[#F8E5CF] font-kepler font-light lowercase m-0 italic max-w-[90%] h-[45px] m-auto md:text-[30px] md:max-w-[63%] md:top-[165px] md:right-[85px]">{{block.settings.second-para}}</p>
-                <p class="absolute top-[130px] right-[90px] text-[20px] leading-[34px] text-[#F8E5CF] font-kepler font-light lowercase m-0 italic max-w-[90%] h-[45px] m-auto md:text-[30px] md:max-w-[63%] md:top-[210px] md:right-[105px]">{{block.settings.third-para}}</p>
+            <h3 class="w-full absolute text-[30px] leading-normal uppercase text-center text-[#F8E5CF] font-compacta font-normal bottom-[15px] left-[50%] -translate-x-[50%] md:text-[34px] md:bottom-[12px] xl:bottom-[30px]">{{block.settings.cat-heading}}</h3>
+            <div class="cat-lines mt-[40px] xl:mt-[30px]">
+                <p class="text-[20px] leading-[34px] text-[#F8E5CF] font-kepler font-light lowercase italic max-w-[90%] h-[45px] m-auto md:text-[30px] md:max-w-[90%] xl:max-w-[63%]">{{block.settings.first-para}}</p>
+                <p class="absolute top-[105px] right-[40px] text-[20px] leading-[34px] text-[#F8E5CF] font-kepler font-light lowercase italic max-w-[90%] h-[45px] m-auto md:text-[30px] md:max-w-[90%] md:top-[140px] md:right-[55px] xl:max-w-[63%] xl:top-[165px] xl:right-[85px]">{{block.settings.second-para}}</p>
+                <p class="absolute top-[130px] right-[90px] text-[20px] leading-[34px] text-[#F8E5CF] font-kepler font-light lowercase italic max-w-[90%] h-[45px] m-auto md:text-[30px] md:max-w-[90%] md:top-[175px] md:right-[60px] xl:max-w-[63%] xl:top-[200px]">{{block.settings.third-para}}</p>
             </div>
         </div>
         </a>

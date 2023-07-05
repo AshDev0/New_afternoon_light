@@ -1,6 +1,6 @@
 <section id="items-we-love" class="bg-[#f4f0ec] m-0 p-0">
   <div class="w-full pt-[25px] pb-0">
-    <div class="content w-full px-[10px] md:px-[90px]">
+    <div class="content w-full px-[20px] md:px-[60px] 2xl:px-[80px]">
       {% if section.settings.heading != blank %}
         <h1 class="text-[30px] leading-[37px] uppercase font-compacta text-right font-normal m-0 mb-[35px] md:text-[45px] md:leading-[62.1px] ">
           {{ section.settings.heading }}
@@ -22,17 +22,17 @@
             <div class="product-content">
               <ul class="vendor-info flex justify-between items-center mt-[30px]">
                 <li>
-                  <a class="text-black text-[16px] leading-[19px] uppercase font-kepler font-light lg:text-[26px] lg:leading-[29px] xl:text-[32px] xl:leading-[38px]" href="#">
+                  <a class="text-black text-[16px] leading-[19px] uppercase font-kepler font-light md:text-[20px] md:leading-normal 2xl:text-[32px] 2xl:leading-[38px]" href="#">
                     {{- product.vendor -}}
                   </a>
                 </li>
                 <li>
-                  <a class="text-black text-[16px] leading-[19px] uppercase font-kepler font-light lg:text-[26px] lg:leading-[29px] xl:text-[32px] xl:leading-[38px]" href="#">
+                  <a class="text-black text-[16px] leading-[19px] uppercase font-kepler font-light md:text-[20px] md:leading-normal 2xl:text-[32px] 2xl:leading-[38px]" href="#">
                     {{- product.price | money_with_currency -}}
                   </a>
                 </li>
               </ul>
-              <p class="product-title text-black text-[17px] leading-[19px] mt-[5px] font-kepler font-medium capitalize md:text-[22px] md:leading-[26px]">
+              <p class="product-title text-black text-[17px] leading-[19px] mt-[5px] font-kepler font-medium capitalize md:text-[20px] md:leading-normal">
                 {{ product.title }}
               </p>
             </div>
