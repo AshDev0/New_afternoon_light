@@ -176,8 +176,16 @@
     },
     "c0bdc3f8-ec39-40d3-a39e-f6815050be98": {
       "type": "al_slider_new",
+      "disabled": true,
       "settings": {
         "heading": "BEST SELLERS",
+        "collection": "new-collection"
+      }
+    },
+    "0c8235cd-4370-4115-ac31-9564239de635": {
+      "type": "al_new_slider_keen",
+      "settings": {
+        "heading": "Best Sellers",
         "collection": "new-collection"
       }
     },
@@ -312,6 +320,7 @@
     "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe",
     "9b2542e0-fc63-4b53-a746-48b1f14b17fc",
     "c0bdc3f8-ec39-40d3-a39e-f6815050be98",
+    "0c8235cd-4370-4115-ac31-9564239de635",
     "2a7245dd-1007-4af7-9d90-c0fa47de754a",
     "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0"
   ]
