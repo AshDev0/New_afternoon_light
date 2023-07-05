@@ -25,4 +25,12 @@ $('.new_slider').slick({
     ]
   });
 });
+
+
+var slider = new KeenSlider("#my-keen-slider", {
+  slides: {
+    perView: 5,
+    spacing: 25,
+  },
+})
   
