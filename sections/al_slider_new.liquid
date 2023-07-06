@@ -1,32 +1,29 @@
-<section id="new_slider_section" class="bg-[#f4f0ec] m-0">
-    <div class="new_slider_section w-full pt-[85px] px-[0px] md:pt-[90px] md:px-[30px]">
-      {% if section.settings.heading != blank %}
-        <h1 class="text-right text-[30px] leading-[37px] uppercase tracking-normal m-0 font-compacta font-normal mb-[35px] pr-[20px] md:text-[45px] md:leading-[55px] md:pr-[50px]">{{ section.settings.heading }}</h1>
-      {% endif%}
-        {% assign collection_main = collections[section.settings.collection] %}
-        <div class="slider-container">
-            <div class="new_slider w-full flex justify-between flex-wrap px-[20px] m-0 pb-[60px] md:px-[30px]">
-                {% for product in collection_main.products %}
-                <div class="new_slider_item block px-[12.5px] md:px-[15px]">
-                  <div class="group w-full h-fit ">
-                    <div class="product_img relative w-full overflow-hidden">
-                        <img class="w-full block" src="{{ product | img_url:"master" }}">
-                        <div class="add-to-bag absolute h-full w-full bg-[#ff45d6] flex items-center justify-center opacity-0 group-hover:opacity-20 transition-all duration-300 ">
-                      </div>
-                    </div>
-                    <div class="product_content mt-[20px]">
-                        <ul class="vendor_info flex justify-between items-center">
-                            <li><a class="text-black text-[16px] leading-normal uppercase font-kepler font-light md:text-[20px]" href="#">{{ product.vendor }}</a></li>
-                            <li><a class="text-black text-[16px] leading-normal uppercase font-kepler font-light md:text-[20px]" href="#">{{ product.price | money_with_currency }}</a></li>
-                        </ul>
-                        <p class="text-black text-[20px] leading-normal uppercase font-kepler font-light ">{{product.title}}</p>
-                    </div>
+
+<section id="new_slider_section">
+  <div class="new_slider_section  pt-[90px] pb-[50px] sm:py-[40px] sm:px-[20px] bg-[#f4f0ec] md:px-[30px]">
+    {% if section.settings.heading != blank %}
+      <h1 class="text-[#242D2D] font-[Compacta] uppercase text-right pr-[0px] pb-[15px] md:marker:pb-[35px] lg:text-[45px] md:text-[30px] xs:text-[23px] xs:leading[43.8px] xs:mb-[15px]"> {{ section.settings.heading }}</h1>
+    {% endif%}
+      {% assign collection_main = collections[section.settings.collection] %}
+      <div class="slider-container">
+          <div class="new_slider flex overflow-hidden">
+              {% for product in collection_main.products %}
+              <div class="new_slider_items px-[15px] md:w-[20%] md:shrink-0 sm:w-[50%] sm:shrinl-0/4">
+                  <div class="product_img after:content-['']">
+                      <img src="{{ product | img_url:"master" }}">
                   </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
+                  <div class="product_content mt-[20px]">
+                      <ul class="vendor_info flex justify-between">
+                          <li class="xs:pr-[10px] sm:w-9/12	flex"><a class="text-black xs:text-[15px] xs:leading-[normal] uppercase font-kepler font-semibold" href="#">{{ product.vendor }}</a></li>
+                          <li><a class="text-[#242D2D] xs:text-[15px] xs:leading-[normal] font-kepler font-semibold" href="#">{{ product.price | money_with_currency }}</a></li>
+                      </ul>
+                      <p class="xs:text-[15px] capitalize flex font-kepler font-semibold xs:mt-[5px] text-black">{{product.title | capitalize}}</p>
+                  </div>
+              </div>
+              {% endfor %}
+          </div>
+      </div>
+  </div>
 </section>
 {% schema %}
   {
