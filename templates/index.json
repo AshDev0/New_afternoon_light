@@ -71,14 +71,6 @@
       "settings": {
       }
     },
-    "c0bdc3f8-ec39-40d3-a39e-f6815050be98": {
-      "type": "al_slider_new",
-      "disabled": true,
-      "settings": {
-        "heading": "BEST SELLERS",
-        "collection": "new-collection"
-      }
-    },
     "0c8235cd-4370-4115-ac31-9564239de635": {
       "type": "al_new_slider_keen",
       "settings": {
@@ -274,6 +266,13 @@
         "btn-title": "view all stories",
         "btn-url": "#"
       }
+    },
+    "c0bdc3f8-ec39-40d3-a39e-f6815050be98": {
+      "type": "al_slider_new",
+      "settings": {
+        "heading": "BEST SELLERS",
+        "collection": "new-collection"
+      }
     }
   },
   "order": [
@@ -281,11 +280,11 @@
     "d37c19df-cbb1-4e29-9515-fa70dc7d6481",
     "610154c3-224e-4cc4-b55c-4c8fd7c2054a",
     "55ffa2f0-196a-47b3-b19c-2ef5472113f4",
-    "c0bdc3f8-ec39-40d3-a39e-f6815050be98",
     "0c8235cd-4370-4115-ac31-9564239de635",
     "9b2542e0-fc63-4b53-a746-48b1f14b17fc",
     "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe",
     "2a7245dd-1007-4af7-9d90-c0fa47de754a",
-    "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0"
+    "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0",
+    "c0bdc3f8-ec39-40d3-a39e-f6815050be98"
   ]
 }
