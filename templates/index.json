@@ -71,49 +71,19 @@
       "settings": {
       }
     },
-    "a5694b61-be91-4634-a099-5cdc4135f638": {
-      "type": "al_shop_now_for_mobile",
-      "blocks": {
-        "194e472c-1636-4145-a706-0131a7ddb4c0": {
-          "type": "shopnow",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/202209-842_03_1.png",
-            "heading": "kartell",
-            "desc": "New colors in planters, coasters and  everyone’s favorite bookends are here."
-          }
-        },
-        "2e8a0d5e-e533-4905-9fb6-b445e170eafe": {
-          "type": "shopnow",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/anglepoise-oiginal-1227-giant-citrus-yellowLarge_1.png",
-            "heading": "areaware",
-            "desc": "Explore the Spring ’23 releases"
-          }
-        },
-        "2b1602de-0362-4143-a13d-0f0cc6dc0304": {
-          "type": "shopnow",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SO_5430_1.png",
-            "heading": "LEMNOS",
-            "desc": "The most beautiful shoe horn in the world?"
-          }
-        }
-      },
-      "block_order": [
-        "194e472c-1636-4145-a706-0131a7ddb4c0",
-        "2e8a0d5e-e533-4905-9fb6-b445e170eafe",
-        "2b1602de-0362-4143-a13d-0f0cc6dc0304"
-      ],
+    "c0bdc3f8-ec39-40d3-a39e-f6815050be98": {
+      "type": "al_slider_new",
+      "disabled": true,
       "settings": {
+        "heading": "BEST SELLERS",
+        "collection": "new-collection"
       }
     },
-    "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe": {
-      "type": "items_we_love",
+    "0c8235cd-4370-4115-ac31-9564239de635": {
+      "type": "al_new_slider_keen",
       "settings": {
-        "heading": "items we love",
-        "collection": "items-we-love",
-        "add-to-bag": "add to bag",
-        "url": "#"
+        "heading": "Best Sellers",
+        "collection": "new-collection"
       }
     },
     "9b2542e0-fc63-4b53-a746-48b1f14b17fc": {
@@ -174,23 +144,18 @@
         "heading": "Shop by Vibe"
       }
     },
-    "c0bdc3f8-ec39-40d3-a39e-f6815050be98": {
-      "type": "al_slider_new",
-      "disabled": true,
+    "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe": {
+      "type": "items_we_love",
       "settings": {
-        "heading": "BEST SELLERS",
-        "collection": "new-collection"
-      }
-    },
-    "0c8235cd-4370-4115-ac31-9564239de635": {
-      "type": "al_new_slider_keen",
-      "settings": {
-        "heading": "Best Sellers",
-        "collection": "new-collection"
+        "heading": "items we love",
+        "collection": "items-we-love",
+        "add-to-bag": "add to bag",
+        "url": "#"
       }
     },
     "2a7245dd-1007-4af7-9d90-c0fa47de754a": {
       "type": "categories",
+      "disabled": true,
       "blocks": {
         "49c225c2-d2fe-4020-a5a4-02d20ce4b9a8": {
           "type": "categories",
@@ -316,11 +281,10 @@
     "d37c19df-cbb1-4e29-9515-fa70dc7d6481",
     "610154c3-224e-4cc4-b55c-4c8fd7c2054a",
     "55ffa2f0-196a-47b3-b19c-2ef5472113f4",
-    "a5694b61-be91-4634-a099-5cdc4135f638",
-    "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe",
-    "9b2542e0-fc63-4b53-a746-48b1f14b17fc",
     "c0bdc3f8-ec39-40d3-a39e-f6815050be98",
     "0c8235cd-4370-4115-ac31-9564239de635",
+    "9b2542e0-fc63-4b53-a746-48b1f14b17fc",
+    "3b474b7d-c5d0-4029-8bfd-a24fa5709dfe",
     "2a7245dd-1007-4af7-9d90-c0fa47de754a",
     "c84081dc-9f1f-45bf-8c5f-cfbbcf49a3f0"
   ]
